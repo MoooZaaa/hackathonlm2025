@@ -1,0 +1,86 @@
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #1f3634;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #1f3634;
+}
+
+input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.form-input {
+    border-radius: 15px !important;
+}
+
+input:focus {
+    border-color: #28a16b;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #28a16b;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218b5d;
+}
+
+.register-span {
+    text-decoration: underline;
+    color: #218b5d;
+    cursor: pointer;
+};
+
+.register-label {
+    margin-top: 0;
+}
+
+.register {
+    text-align: center;
+    align-items: center;
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+};

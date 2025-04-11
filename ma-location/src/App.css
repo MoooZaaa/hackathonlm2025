@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sen', sans-serif;
+}
 
 :root {
   --beige: #EFE9E7;
@@ -64,7 +72,7 @@ nav {
 }
 
 .nav-links li {
-  margin-left: 2rem;
+  margin-left: 1rem;;
   position: relative;
 }
 
@@ -73,7 +81,7 @@ nav {
   text-decoration: none;
   font-weight: 600;
   transition: var(--transition);
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   position: relative;
 }
 
@@ -82,7 +90,7 @@ nav {
   position: absolute;
   bottom: -3px;
   left: 0;
-  width: 0;
+  width: 0;;
   height: 2px;
   background-color: var(--green);
   transition: var(--transition);
@@ -121,6 +129,11 @@ nav {
   padding: 0 1rem;
   position: relative;
   overflow: hidden;
+}
+
+.home-btn {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .hero-content {
@@ -170,7 +183,7 @@ nav {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: var(--purple);
+  background-color: var(--darkgreen);
   transition: width 0.3s ease;
   z-index: -1;
 }
@@ -188,18 +201,11 @@ nav {
   transform: translateY(-1px);
 }
 
-.btn-see-more {
-  margin-top: 20px;
-}
-
-.first-div .btn {
-  margin-inline: 20px;
-}
-
 .btn-secondary {
   background-color: transparent;
   border: 2px solid var(--green);
   color: var(--green);
+  margin-left: 10px;
 }
 
 .btn-secondary:hover {
@@ -207,13 +213,17 @@ nav {
   color: var(--beige);
 }
 
+.nav-btn {
+  padding: 2rem;
+}
+
 .btn-dark {
-  background-color: var(--darkgreen);
+  background-color: var(--green);
   color: var(--beige);
 }
 
 .btn-dark:hover::before {
-  background-color: var(--brown);
+  background-color: var(--darkgreen);
 }
 
 .scroll-down {
@@ -226,6 +236,7 @@ nav {
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   50%,
@@ -266,6 +277,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
+  width: 100%;
 }
 
 .form-group {
@@ -507,7 +519,7 @@ nav {
 }
 
 .step-content {
-  background-color: var(--white);
+  background-color: var(--green);
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -596,7 +608,7 @@ nav {
 }
 
 .testimonial-content {
-  background-color: var(--white);
+  background-color: var(--darkgreen);
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
